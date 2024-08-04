@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+# html
+--------------------------------------------------------------*/
+
+p{
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 2rem;
+    font-size: larger;
+}
+  
+.section-title h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+  }
+
+  .section-title h3::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+  }
+  /*--------------------------------------------------------------
+  # css
+  --------------------------------------------------------------*/
+  
