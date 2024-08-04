@@ -79,7 +79,174 @@
             <p>HTML5 is the fifth and latest version of HTML </p>
             <h3>Advantages of HTML5</h3>
             <p> <i class="bi bi-chevron-right"></i> <strong>New Semantic Elements:</strong>  header, nav, article, section, aside, footer</p>
-            <p> <i class="bi bi-chevron-right"></i> <strong>Form Input Types :</strong>  input type=”date”>, input type = “email”></p>
+            <p> <i class="bi bi-chevron-right"></i> <strong>Form Input Types :</strong>  <i class="bi bi-chevron-left"></i>input type=”date”>, input type = “email”></p>
+            <p> <i class="bi bi-chevron-right"></i> <strong>Audio and Video Support :</strong>  <i class="bi bi-chevron-left"></i>audio>, <i class="bi bi-chevron-left"></i>video></p>
+            <p> <i class="bi bi-chevron-right"></i> <strong>Mobile Compatibolity</strong>  </p>
+            <p> <i class="bi bi-chevron-right"></i> <strong>Simpler Code</strong> </p>
+
+            <h2>XHTML</h2>
+            <p>XHTML (eXtensible HyperText Markup Language) is a markup language that follows the rules of XML to define the structure of web pages.</p>
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                  <h3 class="resume-title">HTML/HTML5</h3>
+                  <div class="resume-item pb-0">
+                    <p>HTML has more lenient syntax rules. Closing tag is not mandatory for some elements. <i class="bi bi-chevron-left"></i>ima src=”sunit.jpg” alt=”Description”>.</p>
+                    <p>HTML is not case-sensitive. <i class="bi bi-chevron-left"></i>DIV>, <i class="bi bi-chevron-right"></i>P> will work.</p>
+                    <p>HTML is widely supported by all browsers and web platforms.</p>
+                    
+                  </div>
+                  
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                  <h3 class="resume-title">XHTML</h3>                 
+                  <p>XHTML follows stricter syntax rules. All tags must be properly nested and closed. <i class="bi bi-chevron-left"></i>img src=”sunit.jpg” alt=”Description” /></p>
+                  <p>XHTML is case-sensitive. <i class="bi bi-chevron-left"></i>div>, <i class="bi bi-chevron-left"></i>p> will work.</p>
+                  <p>XHTML has limited support by browsers.</p>
+                </div>
+              </div>
+
+              <hr>
+              <h3>Steps to start practical...</h3>
+              <p>Create a file called “index.html”</p>
+              <p>Write the text inside file “Welcome to HTML”</p>
+              <p>To save the file press ctrl + S</p>
+              <p>Open the saved file from the folder.</p>
+              <p>This will open your file in the default browser.</p>
+
+              <h2>HTML Elements</h2>
+              <p>An HTML element is the building block of an HTML document</p>
+              <p><i class="bi bi-chevron-left"></i>tagname> Content goes here <i class="bi bi-chevron-left"></i>/tagname></p>
+              <p><i class="bi bi-chevron-left"></i>tagname> <br>
+                &nbsp; &nbsp;<i class="bi bi-chevron-left"></i>tagname> Content goes here <i class="bi bi-chevron-left"></i>/tagname> <br>
+                <i class="bi bi-chevron-left"></i>/tagname>
+            </p>
+            <h3><i class="bi bi-chevron-left"></i>!DOCTYPE html></h3>
+            <p>DOCTYPE (Document Type) declaration specifies the version of HTML</p>
+            <p>DOCTYPE tells the browser which version of HTML it is and how to interpret the code.</p>
+            <p>If we remove <!DOCTYPE html> from html, Then browser can still render the page, but they will not be able to validate the version of HTML, therefore it may lead to some compatibility issues with SEO or debugging.</p>
+            <p> <i class="bi bi-chevron-left"></i>html> 	-	root element <br>
+                <i class="bi bi-chevron-left"></i>/html>
+            </p>
+
+            <p>Inside this we will two element 
+
+                <br>
+                <i class="bi bi-chevron-left"></i>head><i class="bi bi-chevron-left"></i>/head>
+                <br>
+                <i class="bi bi-chevron-left"></i>body><i class="bi bi-chevron-left"></i>/body>
+                </p>
+
+            <p>
+                The <i class="bi bi-chevron-left"></i>head> element is where you place meta-information (information about the document ) . For example, <i class="bi bi-chevron-left"></i>title>, <i class="bi bi-chevron-left"></i>meta>, <i class="bi bi-chevron-left"></i>link>, <i class="bi bi-chevron-left"></i>script>, <i class="bi bi-chevron-left"></i>style> are normally kept under head element.
+            </p>
+            <p>
+                The <body> element is where you place the actual content of your HTML web page. For example, <i class="bi bi-chevron-left"></i>div>, <i class="bi bi-chevron-left"></i>h1>, <i class="bi bi-chevron-left"></i>p>, <i class="bi bi-chevron-left"></i>img>, <i class="bi bi-chevron-left"></i>a> are normally kept under body element.
+            </p>
+            <p>Head will load before the body, therefore, if you are manipulating HTML elements in your JS functions, then place the JS link at the end of the body section because until then all the elements will be loaded. Else, place it inside the head tag.</p>
+
+            <h2><i class="bi bi-chevron-left"></i>title></h2>
+            <p>The <i class="bi bi-chevron-left"></i>title> tag in HTML is used to define the title of a web page.</p>
+            <h3>Advantages of title tag:</h3>
+            <p> <strong>Window Title : </strong>  <i class="bi bi-chevron-left"></i>title> element text is displayed in the tab of the browser.</p>
+            <p> <strong> SEO : </strong>  Search engines use the title as the main heading for search results.</p>
+            <p> <strong>Bookmarks/Favorite : </strong> Title tag is used as the default name for the bookmark.</p>
+            <p> <strong>Social Media Sharing : </strong> Title tag is used as the default title in the shared post.</p>
+
+            <h2>Meta tags</h2>
+            <p>Meta tags in HTML are elements used to provide metadata or additional information about a web page.</p>
+            <h3>Types of Meta Tags</h3>
+            <p><strong>charset</strong></p>
+            <p><strong>viewport</strong></p>
+            <p><strong>description</strong></p>
+            <p><strong>keywords</strong></p>
+            <p><strong>author</strong></p>
+            <p>
+                <i class="bi bi-chevron-left"></i>head> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <i class="bi bi-chevron-left"></i>meta charset="UTF-8"> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <i class="bi bi-chevron-left"></i>meta name="viewport" content="width=device-width, initial-scale=1.0"> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <i class="bi bi-chevron-left"></i>title>Sunit Online<i class="bi bi-chevron-left"></i>/title> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <i class="bi bi-chevron-left"></i>meta name="description" content="Technical Subjects" /> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <i class="bi bi-chevron-left"></i>meta name="keywords" content=".NET, Angular, Reactjs, HTML" /> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <i class="bi bi-chevron-left"></i>meta name="author" content="Sunit Pal" /> <br>
+                <i class="bi bi-chevron-left"></i>/head>                
+            </p>
+            <h3>Character Encoding :</h3>
+            <p>This helps browsers to interpret the different characters in the document. The charset=”UTF-8” attribute ensures that characters from different languages will be displayed correctly in the browser.</p>
+
+            <h3>Responsive Design :</h3>
+            <p>viewport meta tag is crucial for creating mobile-friendly, responsive web designs for various screen sizes.</p>
+
+            <h3>Description for SEO :</h3>
+            <p>This meta tag provides description of the content of the page. Search engines may use this for search results.</p>
+
+            <h3>Keywords for SEO :</h3>
+            <p>This meta tag used to be important for search engines, but it’s now of less importance.</p>
+
+            <h3>Author Info :</h3>
+            <p>This meta tag can be used to specify the author of the document.</p>
+
+            <h2>HTML Elements & Tags</h2>
+            <p>HTML elements are the building blocks of web pages.</p>
+            <p>Element consists of a start tag, content, and an end tag.</p>
+            <p>Tag is a specific part of an element that denotes the beginning or end of that element.</p>
+            <img src="assets/images/1.png" alt="">
+
+            <h2>Most common used HTML elements</h2>
+            <p><strong>Paragraph Element : </strong> Defines a block of text. <i class="bi bi-chevron-left"></i>p></p>
+            <p><strong>Heading Elements : </strong> <i class="bi bi-chevron-left"></i>h1><i class="bi bi-chevron-left"></i>h2><i class="bi bi-chevron-left"></i>h3><i class="bi bi-chevron-left"></i>h4><i class="bi bi-chevron-left"></i>h5><i class="bi bi-chevron-left"></i>h6> </p>
+            <p><strong>Header and Footer Elements : </strong> <i class="bi bi-chevron-left"></i>header> and <i class="bi bi-chevron-left"></i>footer></p>
+            <p><strong>Sectioning Elements : </strong> <i class="bi bi-chevron-left"></i>section> <i class="bi bi-chevron-left"></i>article>, <i class="bi bi-chevron-left"></i>nav>, <i class="bi bi-chevron-left"></i>aside>, <i class="bi bi-chevron-left"></i>main></p>
+            <p><strong>Image Element : </strong> Embeds images into a webpage. <i class="bi bi-chevron-left"></i>img> (self-closing).</p>
+            <p><strong>List Elements : </strong> <i class="bi bi-chevron-left"></i>ul> (unordered list) , <i class="bi bi-chevron-left"></i>ol> (ordered list) , <i class="bi bi-chevron-left"></i>li> (list item)</p>
+            <p> <strong>Anchor Element (Link) : </strong> Creates hyperlinks to other pages or resources. <i class="bi bi-chevron-left"></i>a>.</p>
+            <p><strong>Division Element : </strong>div> groups together content for applying styles or scripting. <i class="bi bi-chevron-left"></i>div>.</p>
+            <p><strong>Table Elements :</strong> <i class="bi bi-chevron-left"></i>table>, <i class="bi bi-chevron-left"></i>tr> (table row), <i class="bi bi-chevron-left"></i>th> (table header) and <i class="bi bi-chevron-left"></i>td> (table data).</p>
+            <p><strong>Form Elements :</strong> Used for creating forms. <i class="bi bi-chevron-left"></i>form>, <i class="bi bi-chevron-left"></i>input>, <i class="bi bi-chevron-left"></i>button>, <i class="bi bi-chevron-left"></i>select> , <i class="bi bi-chevron-left"></i>textarea> , etc.</p>
+
+            <p>
+                <i class="bi bi-chevron-left"></i>!DOCTYPE html> <br>
+                &nbsp;&nbsp;&nbsp; <i class="bi bi-chevron-left"></i>html lang="en"> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-chevron-left"></i>head> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-chevron-left"></i>title>HTML Course<i class="bi bi-chevron-left"></i>/title> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-chevron-left"></i>/head> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-chevron-left"></i>body> <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Welcome to HTML <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-chevron-left"></i>/body> <br>
+                <i class="bi bi-chevron-left"></i>/html>
+            </p>
+
+            <h2>Formatting Text</h2>
+            <p>For formatting text we have html element</p>
+            <p><i class="bi bi-chevron-left"></i>p> type "lorem" and press tab<i class="bi bi-chevron-left"></i>/p></p>
+            <p><i class="bi bi-chevron-left"></i>p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus quibusdam, tenetur amet odit excepturi quidem ducimus, et doloribus nobis reprehenderit, corporis vero accusamus dolores placeat cupiditate deserunt? Aliquid, est.<i class="bi bi-chevron-left"></i>/p></p>
+
+            <p><i class="bi bi-chevron-left"></i>p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio possimus quibusdam, <br>
+                <br>
+                tenetur amet odit excepturi quidem ducimus, et doloribus nobis reprehenderit, corporis vero <br>
+                <br>
+                accusamus dolores placeat cupiditate deserunt? Aliquid, est.<i class="bi bi-chevron-left"></i>/p>
+            </p>
+            
+            <p>Output will be same</p>
+            <p>If you want to break line then use <strong> <i class="bi bi-chevron-left"></i>br></strong></p>
+            <p>After format document <i class="bi bi-chevron-left"></i>br> tag will be like <i class="bi bi-chevron-left"></i>br />. keeping / is optional</p>
+            <p> <strong> <i class="bi bi-chevron-left"></i>hr /> </strong> for horizontal line</p>
+
+            <h3>Html provides few elements to format text.</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
         </div>
       </section><!-- End HTML Section -->
